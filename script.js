@@ -168,11 +168,11 @@ canvas.addEventListener("touchmove", e => {
 /* =========================
    SERVICE WORKER
 ========================= */
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("./service-worker.js");
-  });
-}
+//if ("serviceWorker" in navigator) {
+  //window.addEventListener("load", () => {
+    //navigator.serviceWorker.register("./service-worker.js");
+  //});
+//}
 
 /* =========================
    earser logic
@@ -186,3 +186,4 @@ eraserBtn.onclick = () => {
 
   eraserBtn.classList.toggle("active", erasing);
 };
+
